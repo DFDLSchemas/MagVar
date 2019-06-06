@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<testSuite suiteName="Namespaces"
+  xmlns:dfdl="http://www.ogf.org/dfdl/dfdl-1.0/" 
+  xmlns:tdml="http://www.ibm.com/xmlns/dfdl/testData"
+  defaultRoundTrip="onePass">
+
+	<tdml:parserTestCase name="magvar_test"
+		model="com/tresys/magvar/xsd/magvar.dfdl.xsd">
+		<tdml:document>
+			<tdml:documentPart type="file">WMM.COF</tdml:documentPart>
+		</tdml:document>
+		<tdml:infoset>
+			<tdml:dfdlInfoset type="file">
+				WMM.COF.xml
+			</tdml:dfdlInfoset>
+		</tdml:infoset>
+	</tdml:parserTestCase>
+ 
+</testSuite>

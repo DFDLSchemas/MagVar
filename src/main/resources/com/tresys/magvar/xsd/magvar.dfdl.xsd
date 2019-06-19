@@ -50,28 +50,37 @@ SOFTWARE.
         emptyValueDelimiterPolicy="both" representation="text" textNumberRep="standard"
         lengthKind="implicit" encoding="ASCII" encodingErrorPolicy="error" outputNewLine="%CR;%LF;" 
         textNumberJustification="right" textNumberPadCharacter="%SP;" textTrimKind="padChar" textPadKind="padChar"
-        textNumberPattern="###0.0##;-###0.0##" textStandardZeroRep="" />
+        textStandardZeroRep="" />
+      <dfdl:defineFormat name="floatFmt">
+        <dfdl:format textNumberPattern="###0.0##;-###0.0##"/>
+      </dfdl:defineFormat>
     </xs:appinfo>
   </xs:annotation>
 
   <xs:element name="magvar" dfdl:terminator="999999999999999999999999999999999999999999999999%NL;999999999999999999999999999999999999999999999999%NL;">
     <xs:complexType>
       <xs:sequence dfdl:separator="%NL;" dfdl:separatorPosition="postfix">
-        <xs:element name="header" type="xs:string" dfdl:lengthKind="delimited"/>
+        <xs:element name="header" type="tns:paddedString" dfdl:lengthKind="delimited"/>
         <xs:element name="record" maxOccurs="unbounded">
           <xs:complexType>
             <xs:sequence dfdl:separator="%SP;">
               <xs:element name="item1" type="xs:int" dfdl:lengthKind="explicit" dfdl:length="3"/>
               <xs:element name="item2" type="xs:int" dfdl:lengthKind="explicit" dfdl:length="2"/>
-              <xs:element name="item3" type="xs:double" dfdl:lengthKind="explicit" dfdl:length="9"/>
-              <xs:element name="item4" type="xs:double" dfdl:lengthKind="explicit" dfdl:length="9"/>
-              <xs:element name="item5" type="xs:double" dfdl:lengthKind="explicit" dfdl:length="10"/>
-              <xs:element name="item6" type="xs:double" dfdl:lengthKind="explicit" dfdl:length="10"/>
+              <xs:element name="item3" type="xs:double" dfdl:lengthKind="explicit" dfdl:length="9" dfdl:ref="tns:floatFmt"/>
+              <xs:element name="item4" type="xs:double" dfdl:lengthKind="explicit" dfdl:length="9" dfdl:ref="tns:floatFmt"/>
+              <xs:element name="item5" type="xs:double" dfdl:lengthKind="explicit" dfdl:length="10" dfdl:ref="tns:floatFmt"/>
+              <xs:element name="item6" type="xs:double" dfdl:lengthKind="explicit" dfdl:length="10" dfdl:ref="tns:floatFmt"/>
             </xs:sequence>
           </xs:complexType>
         </xs:element> 
       </xs:sequence>
     </xs:complexType>
   </xs:element>
+  
+  <xs:simpleType name="paddedString">
+    <xs:restriction base="xs:string">
+      <xs:minLength value="0"/>
+    </xs:restriction>
+  </xs:simpleType>
 
 </xs:schema>

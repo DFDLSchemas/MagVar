@@ -46,6 +46,8 @@ object TestMagVar {
 class TestMagVar {
   import TestMagVar._
 
-  @Test def test_magvar_test() { runner.runOneTest("magvar_test") }
+  @Test def parseWMM2015COF() { runner.runOneTest("parseWMM2015COF") }
+  @Test def parseWMM2020COF_onePass() { runner.runOneTest("parseWMM2020COF_onePass") }
+  @Test def parseWMM2020COF_twoPass() { runner.runOneTest("parseWMM2020COF_twoPass") }
 
 }

@@ -48,7 +48,7 @@ SOFTWARE.
         terminator="" initiatedContent="no" ignoreCase="no"
         separatorPosition="infix" occursCountKind="implicit"
         emptyValueDelimiterPolicy="both" representation="text" textNumberRep="standard"
-        lengthKind="implicit" encoding="ASCII" encodingErrorPolicy="error" outputNewLine="%CR;%LF;" 
+        lengthKind="implicit" encoding="ASCII" encodingErrorPolicy="replace" outputNewLine="%CR;%LF;" 
         textNumberJustification="right" textNumberPadCharacter="%SP;" textTrimKind="padChar" textPadKind="padChar"
         textStandardZeroRep="" />
       <dfdl:defineFormat name="floatFmt">
@@ -61,15 +61,15 @@ SOFTWARE.
     <xs:complexType>
       <xs:sequence dfdl:separator="%NL;" dfdl:separatorPosition="postfix">
         <xs:element name="header" type="tns:paddedString" dfdl:lengthKind="delimited"/>
-        <xs:element name="record" maxOccurs="unbounded">
+        <xs:element name="coefficients" maxOccurs="unbounded">
           <xs:complexType>
             <xs:sequence dfdl:separator="%SP;">
-              <xs:element name="item1" type="xs:int" dfdl:lengthKind="explicit" dfdl:length="3"/>
-              <xs:element name="item2" type="xs:int" dfdl:lengthKind="explicit" dfdl:length="2"/>
-              <xs:element name="item3" type="xs:double" dfdl:lengthKind="explicit" dfdl:length="9" dfdl:ref="tns:floatFmt"/>
-              <xs:element name="item4" type="xs:double" dfdl:lengthKind="explicit" dfdl:length="9" dfdl:ref="tns:floatFmt"/>
-              <xs:element name="item5" type="xs:double" dfdl:lengthKind="explicit" dfdl:length="10" dfdl:ref="tns:floatFmt"/>
-              <xs:element name="item6" type="xs:double" dfdl:lengthKind="explicit" dfdl:length="10" dfdl:ref="tns:floatFmt"/>
+              <xs:element name="n" type="xs:int" dfdl:lengthKind="explicit" dfdl:length="3"/>
+              <xs:element name="m" type="xs:int" dfdl:lengthKind="explicit" dfdl:length="2"/>
+              <xs:element name="gnm" type="xs:double" dfdl:lengthKind="explicit" dfdl:length="9" dfdl:ref="tns:floatFmt"/>
+              <xs:element name="hnm" type="xs:double" dfdl:lengthKind="explicit" dfdl:length="9" dfdl:ref="tns:floatFmt"/>
+              <xs:element name="dgnm" type="xs:double" dfdl:lengthKind="explicit" dfdl:length="10" dfdl:ref="tns:floatFmt"/>
+              <xs:element name="dhnm" type="xs:double" dfdl:lengthKind="explicit" dfdl:length="10" dfdl:ref="tns:floatFmt"/>
             </xs:sequence>
           </xs:complexType>
         </xs:element> 

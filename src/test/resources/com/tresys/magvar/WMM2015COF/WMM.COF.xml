@@ -1,724 +1,729 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<tns:magvar xmlns:tns="urn:com.tresys.magvar">
-  <header>    2015.0            WMM-2015v2      09/18/2018</header>
+<m:magvar xmlns:m="urn:com.tresys.magvar">
+  <header>
+    <modelEpoch>2015</modelEpoch>
+    <modelName>WMM-2015v2</modelName>
+    <spaces>      </spaces>
+    <dateOfRelease>2018-09-18</dateOfRelease>
+  </header>
   <coefficients>
     <n>1</n>
     <m>0</m>
-    <gnm>-29438.2</gnm>
-    <hnm>0.0</hnm>
-    <dgnm>7.0</dgnm>
-    <dhnm>0.0</dhnm>
+    <g_nm>-29438.2</g_nm>
+    <h_nm>0.0</h_nm>
+    <g_dot_nm>7.0</g_dot_nm>
+    <h_dot_nm>0.0</h_dot_nm>
   </coefficients>
   <coefficients>
     <n>1</n>
     <m>1</m>
-    <gnm>-1493.5</gnm>
-    <hnm>4796.3</hnm>
-    <dgnm>9.0</dgnm>
-    <dhnm>-30.2</dhnm>
+    <g_nm>-1493.5</g_nm>
+    <h_nm>4796.3</h_nm>
+    <g_dot_nm>9.0</g_dot_nm>
+    <h_dot_nm>-30.2</h_dot_nm>
   </coefficients>
   <coefficients>
     <n>2</n>
     <m>0</m>
-    <gnm>-2444.5</gnm>
-    <hnm>0.0</hnm>
-    <dgnm>-11.0</dgnm>
-    <dhnm>0.0</dhnm>
+    <g_nm>-2444.5</g_nm>
+    <h_nm>0.0</h_nm>
+    <g_dot_nm>-11.0</g_dot_nm>
+    <h_dot_nm>0.0</h_dot_nm>
   </coefficients>
   <coefficients>
     <n>2</n>
     <m>1</m>
-    <gnm>3014.7</gnm>
-    <hnm>-2842.4</hnm>
-    <dgnm>-6.2</dgnm>
-    <dhnm>-29.6</dhnm>
+    <g_nm>3014.7</g_nm>
+    <h_nm>-2842.4</h_nm>
+    <g_dot_nm>-6.2</g_dot_nm>
+    <h_dot_nm>-29.6</h_dot_nm>
   </coefficients>
   <coefficients>
     <n>2</n>
     <m>2</m>
-    <gnm>1679.0</gnm>
-    <hnm>-638.8</hnm>
-    <dgnm>0.3</dgnm>
-    <dhnm>-17.3</dhnm>
+    <g_nm>1679.0</g_nm>
+    <h_nm>-638.8</h_nm>
+    <g_dot_nm>0.3</g_dot_nm>
+    <h_dot_nm>-17.3</h_dot_nm>
   </coefficients>
   <coefficients>
     <n>3</n>
     <m>0</m>
-    <gnm>1351.8</gnm>
-    <hnm>0.0</hnm>
-    <dgnm>2.4</dgnm>
-    <dhnm>0.0</dhnm>
+    <g_nm>1351.8</g_nm>
+    <h_nm>0.0</h_nm>
+    <g_dot_nm>2.4</g_dot_nm>
+    <h_dot_nm>0.0</h_dot_nm>
   </coefficients>
   <coefficients>
     <n>3</n>
     <m>1</m>
-    <gnm>-2351.6</gnm>
-    <hnm>-113.7</hnm>
-    <dgnm>-5.7</dgnm>
-    <dhnm>6.5</dhnm>
+    <g_nm>-2351.6</g_nm>
+    <h_nm>-113.7</h_nm>
+    <g_dot_nm>-5.7</g_dot_nm>
+    <h_dot_nm>6.5</h_dot_nm>
   </coefficients>
   <coefficients>
     <n>3</n>
     <m>2</m>
-    <gnm>1223.6</gnm>
-    <hnm>246.5</hnm>
-    <dgnm>2.0</dgnm>
-    <dhnm>-0.8</dhnm>
+    <g_nm>1223.6</g_nm>
+    <h_nm>246.5</h_nm>
+    <g_dot_nm>2.0</g_dot_nm>
+    <h_dot_nm>-0.8</h_dot_nm>
   </coefficients>
   <coefficients>
     <n>3</n>
     <m>3</m>
-    <gnm>582.3</gnm>
-    <hnm>-537.4</hnm>
-    <dgnm>-11.0</dgnm>
-    <dhnm>-2.0</dhnm>
+    <g_nm>582.3</g_nm>
+    <h_nm>-537.4</h_nm>
+    <g_dot_nm>-11.0</g_dot_nm>
+    <h_dot_nm>-2.0</h_dot_nm>
   </coefficients>
   <coefficients>
     <n>4</n>
     <m>0</m>
-    <gnm>907.5</gnm>
-    <hnm>0.0</hnm>
-    <dgnm>-0.8</dgnm>
-    <dhnm>0.0</dhnm>
+    <g_nm>907.5</g_nm>
+    <h_nm>0.0</h_nm>
+    <g_dot_nm>-0.8</g_dot_nm>
+    <h_dot_nm>0.0</h_dot_nm>
   </coefficients>
   <coefficients>
     <n>4</n>
     <m>1</m>
-    <gnm>814.8</gnm>
-    <hnm>283.3</hnm>
-    <dgnm>-0.9</dgnm>
-    <dhnm>-0.4</dhnm>
+    <g_nm>814.8</g_nm>
+    <h_nm>283.3</h_nm>
+    <g_dot_nm>-0.9</g_dot_nm>
+    <h_dot_nm>-0.4</h_dot_nm>
   </coefficients>
   <coefficients>
     <n>4</n>
     <m>2</m>
-    <gnm>117.8</gnm>
-    <hnm>-188.6</hnm>
-    <dgnm>-6.5</dgnm>
-    <dhnm>5.8</dhnm>
+    <g_nm>117.8</g_nm>
+    <h_nm>-188.6</h_nm>
+    <g_dot_nm>-6.5</g_dot_nm>
+    <h_dot_nm>5.8</h_dot_nm>
   </coefficients>
   <coefficients>
     <n>4</n>
     <m>3</m>
-    <gnm>-335.6</gnm>
-    <hnm>180.7</hnm>
-    <dgnm>5.2</dgnm>
-    <dhnm>3.8</dhnm>
+    <g_nm>-335.6</g_nm>
+    <h_nm>180.7</h_nm>
+    <g_dot_nm>5.2</g_dot_nm>
+    <h_dot_nm>3.8</h_dot_nm>
   </coefficients>
   <coefficients>
     <n>4</n>
     <m>4</m>
-    <gnm>69.7</gnm>
-    <hnm>-330.0</hnm>
-    <dgnm>-4.0</dgnm>
-    <dhnm>-3.5</dhnm>
+    <g_nm>69.7</g_nm>
+    <h_nm>-330.0</h_nm>
+    <g_dot_nm>-4.0</g_dot_nm>
+    <h_dot_nm>-3.5</h_dot_nm>
   </coefficients>
   <coefficients>
     <n>5</n>
     <m>0</m>
-    <gnm>-232.9</gnm>
-    <hnm>0.0</hnm>
-    <dgnm>-0.3</dgnm>
-    <dhnm>0.0</dhnm>
+    <g_nm>-232.9</g_nm>
+    <h_nm>0.0</h_nm>
+    <g_dot_nm>-0.3</g_dot_nm>
+    <h_dot_nm>0.0</h_dot_nm>
   </coefficients>
   <coefficients>
     <n>5</n>
     <m>1</m>
-    <gnm>360.1</gnm>
-    <hnm>46.9</hnm>
-    <dgnm>0.6</dgnm>
-    <dhnm>0.2</dhnm>
+    <g_nm>360.1</g_nm>
+    <h_nm>46.9</h_nm>
+    <g_dot_nm>0.6</g_dot_nm>
+    <h_dot_nm>0.2</h_dot_nm>
   </coefficients>
   <coefficients>
     <n>5</n>
     <m>2</m>
-    <gnm>191.7</gnm>
-    <hnm>196.5</hnm>
-    <dgnm>-0.8</dgnm>
-    <dhnm>2.3</dhnm>
+    <g_nm>191.7</g_nm>
+    <h_nm>196.5</h_nm>
+    <g_dot_nm>-0.8</g_dot_nm>
+    <h_dot_nm>2.3</h_dot_nm>
   </coefficients>
   <coefficients>
     <n>5</n>
     <m>3</m>
-    <gnm>-141.3</gnm>
-    <hnm>-119.9</hnm>
-    <dgnm>0.1</dgnm>
-    <dhnm>-0.0</dhnm>
+    <g_nm>-141.3</g_nm>
+    <h_nm>-119.9</h_nm>
+    <g_dot_nm>0.1</g_dot_nm>
+    <h_dot_nm>-0.0</h_dot_nm>
   </coefficients>
   <coefficients>
     <n>5</n>
     <m>4</m>
-    <gnm>-157.2</gnm>
-    <hnm>16.0</hnm>
-    <dgnm>1.2</dgnm>
-    <dhnm>3.3</dhnm>
+    <g_nm>-157.2</g_nm>
+    <h_nm>16.0</h_nm>
+    <g_dot_nm>1.2</g_dot_nm>
+    <h_dot_nm>3.3</h_dot_nm>
   </coefficients>
   <coefficients>
     <n>5</n>
     <m>5</m>
-    <gnm>7.7</gnm>
-    <hnm>100.6</hnm>
-    <dgnm>1.4</dgnm>
-    <dhnm>-0.6</dhnm>
+    <g_nm>7.7</g_nm>
+    <h_nm>100.6</h_nm>
+    <g_dot_nm>1.4</g_dot_nm>
+    <h_dot_nm>-0.6</h_dot_nm>
   </coefficients>
   <coefficients>
     <n>6</n>
     <m>0</m>
-    <gnm>69.4</gnm>
-    <hnm>0.0</hnm>
-    <dgnm>-0.8</dgnm>
-    <dhnm>0.0</dhnm>
+    <g_nm>69.4</g_nm>
+    <h_nm>0.0</h_nm>
+    <g_dot_nm>-0.8</g_dot_nm>
+    <h_dot_nm>0.0</h_dot_nm>
   </coefficients>
   <coefficients>
     <n>6</n>
     <m>1</m>
-    <gnm>67.7</gnm>
-    <hnm>-20.1</hnm>
-    <dgnm>-0.5</dgnm>
-    <dhnm>0.3</dhnm>
+    <g_nm>67.7</g_nm>
+    <h_nm>-20.1</h_nm>
+    <g_dot_nm>-0.5</g_dot_nm>
+    <h_dot_nm>0.3</h_dot_nm>
   </coefficients>
   <coefficients>
     <n>6</n>
     <m>2</m>
-    <gnm>72.3</gnm>
-    <hnm>32.8</hnm>
-    <dgnm>-0.1</dgnm>
-    <dhnm>-1.5</dhnm>
+    <g_nm>72.3</g_nm>
+    <h_nm>32.8</h_nm>
+    <g_dot_nm>-0.1</g_dot_nm>
+    <h_dot_nm>-1.5</h_dot_nm>
   </coefficients>
   <coefficients>
     <n>6</n>
     <m>3</m>
-    <gnm>-129.1</gnm>
-    <hnm>59.1</hnm>
-    <dgnm>1.6</dgnm>
-    <dhnm>-1.2</dhnm>
+    <g_nm>-129.1</g_nm>
+    <h_nm>59.1</h_nm>
+    <g_dot_nm>1.6</g_dot_nm>
+    <h_dot_nm>-1.2</h_dot_nm>
   </coefficients>
   <coefficients>
     <n>6</n>
     <m>4</m>
-    <gnm>-28.4</gnm>
-    <hnm>-67.1</hnm>
-    <dgnm>-1.6</dgnm>
-    <dhnm>0.4</dhnm>
+    <g_nm>-28.4</g_nm>
+    <h_nm>-67.1</h_nm>
+    <g_dot_nm>-1.6</g_dot_nm>
+    <h_dot_nm>0.4</h_dot_nm>
   </coefficients>
   <coefficients>
     <n>6</n>
     <m>5</m>
-    <gnm>13.6</gnm>
-    <hnm>8.1</hnm>
-    <dgnm>0.0</dgnm>
-    <dhnm>0.2</dhnm>
+    <g_nm>13.6</g_nm>
+    <h_nm>8.1</h_nm>
+    <g_dot_nm>0.0</g_dot_nm>
+    <h_dot_nm>0.2</h_dot_nm>
   </coefficients>
   <coefficients>
     <n>6</n>
     <m>6</m>
-    <gnm>-70.3</gnm>
-    <hnm>61.9</hnm>
-    <dgnm>1.2</dgnm>
-    <dhnm>1.3</dhnm>
+    <g_nm>-70.3</g_nm>
+    <h_nm>61.9</h_nm>
+    <g_dot_nm>1.2</g_dot_nm>
+    <h_dot_nm>1.3</h_dot_nm>
   </coefficients>
   <coefficients>
     <n>7</n>
     <m>0</m>
-    <gnm>81.7</gnm>
-    <hnm>0.0</hnm>
-    <dgnm>-0.3</dgnm>
-    <dhnm>0.0</dhnm>
+    <g_nm>81.7</g_nm>
+    <h_nm>0.0</h_nm>
+    <g_dot_nm>-0.3</g_dot_nm>
+    <h_dot_nm>0.0</h_dot_nm>
   </coefficients>
   <coefficients>
     <n>7</n>
     <m>1</m>
-    <gnm>-75.9</gnm>
-    <hnm>-54.3</hnm>
-    <dgnm>-0.2</dgnm>
-    <dhnm>0.6</dhnm>
+    <g_nm>-75.9</g_nm>
+    <h_nm>-54.3</h_nm>
+    <g_dot_nm>-0.2</g_dot_nm>
+    <h_dot_nm>0.6</h_dot_nm>
   </coefficients>
   <coefficients>
     <n>7</n>
     <m>2</m>
-    <gnm>-7.1</gnm>
-    <hnm>-19.5</hnm>
-    <dgnm>-0.3</dgnm>
-    <dhnm>0.5</dhnm>
+    <g_nm>-7.1</g_nm>
+    <h_nm>-19.5</h_nm>
+    <g_dot_nm>-0.3</g_dot_nm>
+    <h_dot_nm>0.5</h_dot_nm>
   </coefficients>
   <coefficients>
     <n>7</n>
     <m>3</m>
-    <gnm>52.2</gnm>
-    <hnm>6.0</hnm>
-    <dgnm>0.9</dgnm>
-    <dhnm>-0.8</dhnm>
+    <g_nm>52.2</g_nm>
+    <h_nm>6.0</h_nm>
+    <g_dot_nm>0.9</g_dot_nm>
+    <h_dot_nm>-0.8</h_dot_nm>
   </coefficients>
   <coefficients>
     <n>7</n>
     <m>4</m>
-    <gnm>15.0</gnm>
-    <hnm>24.5</hnm>
-    <dgnm>0.1</dgnm>
-    <dhnm>-0.2</dhnm>
+    <g_nm>15.0</g_nm>
+    <h_nm>24.5</h_nm>
+    <g_dot_nm>0.1</g_dot_nm>
+    <h_dot_nm>-0.2</h_dot_nm>
   </coefficients>
   <coefficients>
     <n>7</n>
     <m>5</m>
-    <gnm>9.1</gnm>
-    <hnm>3.5</hnm>
-    <dgnm>-0.6</dgnm>
-    <dhnm>-1.1</dhnm>
+    <g_nm>9.1</g_nm>
+    <h_nm>3.5</h_nm>
+    <g_dot_nm>-0.6</g_dot_nm>
+    <h_dot_nm>-1.1</h_dot_nm>
   </coefficients>
   <coefficients>
     <n>7</n>
     <m>6</m>
-    <gnm>-3.0</gnm>
-    <hnm>-27.7</hnm>
-    <dgnm>-0.9</dgnm>
-    <dhnm>0.1</dhnm>
+    <g_nm>-3.0</g_nm>
+    <h_nm>-27.7</h_nm>
+    <g_dot_nm>-0.9</g_dot_nm>
+    <h_dot_nm>0.1</h_dot_nm>
   </coefficients>
   <coefficients>
     <n>7</n>
     <m>7</m>
-    <gnm>5.9</gnm>
-    <hnm>-2.9</hnm>
-    <dgnm>0.7</dgnm>
-    <dhnm>0.2</dhnm>
+    <g_nm>5.9</g_nm>
+    <h_nm>-2.9</h_nm>
+    <g_dot_nm>0.7</g_dot_nm>
+    <h_dot_nm>0.2</h_dot_nm>
   </coefficients>
   <coefficients>
     <n>8</n>
     <m>0</m>
-    <gnm>24.2</gnm>
-    <hnm>0.0</hnm>
-    <dgnm>-0.1</dgnm>
-    <dhnm>0.0</dhnm>
+    <g_nm>24.2</g_nm>
+    <h_nm>0.0</h_nm>
+    <g_dot_nm>-0.1</g_dot_nm>
+    <h_dot_nm>0.0</h_dot_nm>
   </coefficients>
   <coefficients>
     <n>8</n>
     <m>1</m>
-    <gnm>8.9</gnm>
-    <hnm>10.1</hnm>
-    <dgnm>0.2</dgnm>
-    <dhnm>-0.4</dhnm>
+    <g_nm>8.9</g_nm>
+    <h_nm>10.1</h_nm>
+    <g_dot_nm>0.2</g_dot_nm>
+    <h_dot_nm>-0.4</h_dot_nm>
   </coefficients>
   <coefficients>
     <n>8</n>
     <m>2</m>
-    <gnm>-16.9</gnm>
-    <hnm>-18.3</hnm>
-    <dgnm>-0.2</dgnm>
-    <dhnm>0.6</dhnm>
+    <g_nm>-16.9</g_nm>
+    <h_nm>-18.3</h_nm>
+    <g_dot_nm>-0.2</g_dot_nm>
+    <h_dot_nm>0.6</h_dot_nm>
   </coefficients>
   <coefficients>
     <n>8</n>
     <m>3</m>
-    <gnm>-3.1</gnm>
-    <hnm>13.3</hnm>
-    <dgnm>0.5</dgnm>
-    <dhnm>-0.1</dhnm>
+    <g_nm>-3.1</g_nm>
+    <h_nm>13.3</h_nm>
+    <g_dot_nm>0.5</g_dot_nm>
+    <h_dot_nm>-0.1</h_dot_nm>
   </coefficients>
   <coefficients>
     <n>8</n>
     <m>4</m>
-    <gnm>-20.7</gnm>
-    <hnm>-14.5</hnm>
-    <dgnm>-0.1</dgnm>
-    <dhnm>0.6</dhnm>
+    <g_nm>-20.7</g_nm>
+    <h_nm>-14.5</h_nm>
+    <g_dot_nm>-0.1</g_dot_nm>
+    <h_dot_nm>0.6</h_dot_nm>
   </coefficients>
   <coefficients>
     <n>8</n>
     <m>5</m>
-    <gnm>13.3</gnm>
-    <hnm>16.2</hnm>
-    <dgnm>0.4</dgnm>
-    <dhnm>-0.2</dhnm>
+    <g_nm>13.3</g_nm>
+    <h_nm>16.2</h_nm>
+    <g_dot_nm>0.4</g_dot_nm>
+    <h_dot_nm>-0.2</h_dot_nm>
   </coefficients>
   <coefficients>
     <n>8</n>
     <m>6</m>
-    <gnm>11.6</gnm>
-    <hnm>6.0</hnm>
-    <dgnm>0.4</dgnm>
-    <dhnm>-0.5</dhnm>
+    <g_nm>11.6</g_nm>
+    <h_nm>6.0</h_nm>
+    <g_dot_nm>0.4</g_dot_nm>
+    <h_dot_nm>-0.5</h_dot_nm>
   </coefficients>
   <coefficients>
     <n>8</n>
     <m>7</m>
-    <gnm>-16.3</gnm>
-    <hnm>-9.2</hnm>
-    <dgnm>-0.1</dgnm>
-    <dhnm>0.5</dhnm>
+    <g_nm>-16.3</g_nm>
+    <h_nm>-9.2</h_nm>
+    <g_dot_nm>-0.1</g_dot_nm>
+    <h_dot_nm>0.5</h_dot_nm>
   </coefficients>
   <coefficients>
     <n>8</n>
     <m>8</m>
-    <gnm>-2.1</gnm>
-    <hnm>2.4</hnm>
-    <dgnm>0.4</dgnm>
-    <dhnm>0.1</dhnm>
+    <g_nm>-2.1</g_nm>
+    <h_nm>2.4</h_nm>
+    <g_dot_nm>0.4</g_dot_nm>
+    <h_dot_nm>0.1</h_dot_nm>
   </coefficients>
   <coefficients>
     <n>9</n>
     <m>0</m>
-    <gnm>5.5</gnm>
-    <hnm>0.0</hnm>
-    <dgnm>-0.1</dgnm>
-    <dhnm>0.0</dhnm>
+    <g_nm>5.5</g_nm>
+    <h_nm>0.0</h_nm>
+    <g_dot_nm>-0.1</g_dot_nm>
+    <h_dot_nm>0.0</h_dot_nm>
   </coefficients>
   <coefficients>
     <n>9</n>
     <m>1</m>
-    <gnm>8.8</gnm>
-    <hnm>-21.8</hnm>
-    <dgnm>-0.1</dgnm>
-    <dhnm>-0.3</dhnm>
+    <g_nm>8.8</g_nm>
+    <h_nm>-21.8</h_nm>
+    <g_dot_nm>-0.1</g_dot_nm>
+    <h_dot_nm>-0.3</h_dot_nm>
   </coefficients>
   <coefficients>
     <n>9</n>
     <m>2</m>
-    <gnm>3.0</gnm>
-    <hnm>10.7</hnm>
-    <dgnm>-0.0</dgnm>
-    <dhnm>0.1</dhnm>
+    <g_nm>3.0</g_nm>
+    <h_nm>10.7</h_nm>
+    <g_dot_nm>-0.0</g_dot_nm>
+    <h_dot_nm>0.1</h_dot_nm>
   </coefficients>
   <coefficients>
     <n>9</n>
     <m>3</m>
-    <gnm>-3.2</gnm>
-    <hnm>11.8</hnm>
-    <dgnm>0.4</dgnm>
-    <dhnm>-0.4</dhnm>
+    <g_nm>-3.2</g_nm>
+    <h_nm>11.8</h_nm>
+    <g_dot_nm>0.4</g_dot_nm>
+    <h_dot_nm>-0.4</h_dot_nm>
   </coefficients>
   <coefficients>
     <n>9</n>
     <m>4</m>
-    <gnm>0.6</gnm>
-    <hnm>-6.8</hnm>
-    <dgnm>-0.4</dgnm>
-    <dhnm>0.3</dhnm>
+    <g_nm>0.6</g_nm>
+    <h_nm>-6.8</h_nm>
+    <g_dot_nm>-0.4</g_dot_nm>
+    <h_dot_nm>0.3</h_dot_nm>
   </coefficients>
   <coefficients>
     <n>9</n>
     <m>5</m>
-    <gnm>-13.2</gnm>
-    <hnm>-6.9</hnm>
-    <dgnm>0.0</dgnm>
-    <dhnm>0.1</dhnm>
+    <g_nm>-13.2</g_nm>
+    <h_nm>-6.9</h_nm>
+    <g_dot_nm>0.0</g_dot_nm>
+    <h_dot_nm>0.1</h_dot_nm>
   </coefficients>
   <coefficients>
     <n>9</n>
     <m>6</m>
-    <gnm>-0.1</gnm>
-    <hnm>7.9</hnm>
-    <dgnm>0.3</dgnm>
-    <dhnm>-0.0</dhnm>
+    <g_nm>-0.1</g_nm>
+    <h_nm>7.9</h_nm>
+    <g_dot_nm>0.3</g_dot_nm>
+    <h_dot_nm>-0.0</h_dot_nm>
   </coefficients>
   <coefficients>
     <n>9</n>
     <m>7</m>
-    <gnm>8.7</gnm>
-    <hnm>1.0</hnm>
-    <dgnm>0.0</dgnm>
-    <dhnm>-0.1</dhnm>
+    <g_nm>8.7</g_nm>
+    <h_nm>1.0</h_nm>
+    <g_dot_nm>0.0</g_dot_nm>
+    <h_dot_nm>-0.1</h_dot_nm>
   </coefficients>
   <coefficients>
     <n>9</n>
     <m>8</m>
-    <gnm>-9.1</gnm>
-    <hnm>-3.9</hnm>
-    <dgnm>-0.0</dgnm>
-    <dhnm>0.5</dhnm>
+    <g_nm>-9.1</g_nm>
+    <h_nm>-3.9</h_nm>
+    <g_dot_nm>-0.0</g_dot_nm>
+    <h_dot_nm>0.5</h_dot_nm>
   </coefficients>
   <coefficients>
     <n>9</n>
     <m>9</m>
-    <gnm>-10.4</gnm>
-    <hnm>8.5</hnm>
-    <dgnm>-0.3</dgnm>
-    <dhnm>0.2</dhnm>
+    <g_nm>-10.4</g_nm>
+    <h_nm>8.5</h_nm>
+    <g_dot_nm>-0.3</g_dot_nm>
+    <h_dot_nm>0.2</h_dot_nm>
   </coefficients>
   <coefficients>
     <n>10</n>
     <m>0</m>
-    <gnm>-2.0</gnm>
-    <hnm>0.0</hnm>
-    <dgnm>0.0</dgnm>
-    <dhnm>0.0</dhnm>
+    <g_nm>-2.0</g_nm>
+    <h_nm>0.0</h_nm>
+    <g_dot_nm>0.0</g_dot_nm>
+    <h_dot_nm>0.0</h_dot_nm>
   </coefficients>
   <coefficients>
     <n>10</n>
     <m>1</m>
-    <gnm>-6.1</gnm>
-    <hnm>3.3</hnm>
-    <dgnm>-0.0</dgnm>
-    <dhnm>0.0</dhnm>
+    <g_nm>-6.1</g_nm>
+    <h_nm>3.3</h_nm>
+    <g_dot_nm>-0.0</g_dot_nm>
+    <h_dot_nm>0.0</h_dot_nm>
   </coefficients>
   <coefficients>
     <n>10</n>
     <m>2</m>
-    <gnm>0.2</gnm>
-    <hnm>-0.4</hnm>
-    <dgnm>-0.1</dgnm>
-    <dhnm>0.1</dhnm>
+    <g_nm>0.2</g_nm>
+    <h_nm>-0.4</h_nm>
+    <g_dot_nm>-0.1</g_dot_nm>
+    <h_dot_nm>0.1</h_dot_nm>
   </coefficients>
   <coefficients>
     <n>10</n>
     <m>3</m>
-    <gnm>0.6</gnm>
-    <hnm>4.6</hnm>
-    <dgnm>0.2</dgnm>
-    <dhnm>-0.2</dhnm>
+    <g_nm>0.6</g_nm>
+    <h_nm>4.6</h_nm>
+    <g_dot_nm>0.2</g_dot_nm>
+    <h_dot_nm>-0.2</h_dot_nm>
   </coefficients>
   <coefficients>
     <n>10</n>
     <m>4</m>
-    <gnm>-0.5</gnm>
-    <hnm>4.4</hnm>
-    <dgnm>-0.1</dgnm>
-    <dhnm>0.1</dhnm>
+    <g_nm>-0.5</g_nm>
+    <h_nm>4.4</h_nm>
+    <g_dot_nm>-0.1</g_dot_nm>
+    <h_dot_nm>0.1</h_dot_nm>
   </coefficients>
   <coefficients>
     <n>10</n>
     <m>5</m>
-    <gnm>1.8</gnm>
-    <hnm>-7.9</hnm>
-    <dgnm>-0.2</dgnm>
-    <dhnm>-0.1</dhnm>
+    <g_nm>1.8</g_nm>
+    <h_nm>-7.9</h_nm>
+    <g_dot_nm>-0.2</g_dot_nm>
+    <h_dot_nm>-0.1</h_dot_nm>
   </coefficients>
   <coefficients>
     <n>10</n>
     <m>6</m>
-    <gnm>-0.7</gnm>
-    <hnm>-0.6</hnm>
-    <dgnm>-0.0</dgnm>
-    <dhnm>0.1</dhnm>
+    <g_nm>-0.7</g_nm>
+    <h_nm>-0.6</h_nm>
+    <g_dot_nm>-0.0</g_dot_nm>
+    <h_dot_nm>0.1</h_dot_nm>
   </coefficients>
   <coefficients>
     <n>10</n>
     <m>7</m>
-    <gnm>2.2</gnm>
-    <hnm>-4.2</hnm>
-    <dgnm>-0.1</dgnm>
-    <dhnm>-0.0</dhnm>
+    <g_nm>2.2</g_nm>
+    <h_nm>-4.2</h_nm>
+    <g_dot_nm>-0.1</g_dot_nm>
+    <h_dot_nm>-0.0</h_dot_nm>
   </coefficients>
   <coefficients>
     <n>10</n>
     <m>8</m>
-    <gnm>2.4</gnm>
-    <hnm>-2.9</hnm>
-    <dgnm>-0.2</dgnm>
-    <dhnm>-0.1</dhnm>
+    <g_nm>2.4</g_nm>
+    <h_nm>-2.9</h_nm>
+    <g_dot_nm>-0.2</g_dot_nm>
+    <h_dot_nm>-0.1</h_dot_nm>
   </coefficients>
   <coefficients>
     <n>10</n>
     <m>9</m>
-    <gnm>-1.8</gnm>
-    <hnm>-1.1</hnm>
-    <dgnm>-0.1</dgnm>
-    <dhnm>0.2</dhnm>
+    <g_nm>-1.8</g_nm>
+    <h_nm>-1.1</h_nm>
+    <g_dot_nm>-0.1</g_dot_nm>
+    <h_dot_nm>0.2</h_dot_nm>
   </coefficients>
   <coefficients>
     <n>10</n>
     <m>10</m>
-    <gnm>-3.6</gnm>
-    <hnm>-8.8</hnm>
-    <dgnm>-0.0</dgnm>
-    <dhnm>-0.0</dhnm>
+    <g_nm>-3.6</g_nm>
+    <h_nm>-8.8</h_nm>
+    <g_dot_nm>-0.0</g_dot_nm>
+    <h_dot_nm>-0.0</h_dot_nm>
   </coefficients>
   <coefficients>
     <n>11</n>
     <m>0</m>
-    <gnm>3.0</gnm>
-    <hnm>0.0</hnm>
-    <dgnm>-0.0</dgnm>
-    <dhnm>0.0</dhnm>
+    <g_nm>3.0</g_nm>
+    <h_nm>0.0</h_nm>
+    <g_dot_nm>-0.0</g_dot_nm>
+    <h_dot_nm>0.0</h_dot_nm>
   </coefficients>
   <coefficients>
     <n>11</n>
     <m>1</m>
-    <gnm>-1.4</gnm>
-    <hnm>-0.0</hnm>
-    <dgnm>0.0</dgnm>
-    <dhnm>0.0</dhnm>
+    <g_nm>-1.4</g_nm>
+    <h_nm>-0.0</h_nm>
+    <g_dot_nm>0.0</g_dot_nm>
+    <h_dot_nm>0.0</h_dot_nm>
   </coefficients>
   <coefficients>
     <n>11</n>
     <m>2</m>
-    <gnm>-2.3</gnm>
-    <hnm>2.1</hnm>
-    <dgnm>-0.0</dgnm>
-    <dhnm>0.1</dhnm>
+    <g_nm>-2.3</g_nm>
+    <h_nm>2.1</h_nm>
+    <g_dot_nm>-0.0</g_dot_nm>
+    <h_dot_nm>0.1</h_dot_nm>
   </coefficients>
   <coefficients>
     <n>11</n>
     <m>3</m>
-    <gnm>2.1</gnm>
-    <hnm>-0.6</hnm>
-    <dgnm>0.0</dgnm>
-    <dhnm>0.0</dhnm>
+    <g_nm>2.1</g_nm>
+    <h_nm>-0.6</h_nm>
+    <g_dot_nm>0.0</g_dot_nm>
+    <h_dot_nm>0.0</h_dot_nm>
   </coefficients>
   <coefficients>
     <n>11</n>
     <m>4</m>
-    <gnm>-0.8</gnm>
-    <hnm>-1.1</hnm>
-    <dgnm>-0.0</dgnm>
-    <dhnm>0.1</dhnm>
+    <g_nm>-0.8</g_nm>
+    <h_nm>-1.1</h_nm>
+    <g_dot_nm>-0.0</g_dot_nm>
+    <h_dot_nm>0.1</h_dot_nm>
   </coefficients>
   <coefficients>
     <n>11</n>
     <m>5</m>
-    <gnm>0.6</gnm>
-    <hnm>0.7</hnm>
-    <dgnm>-0.1</dgnm>
-    <dhnm>-0.0</dhnm>
+    <g_nm>0.6</g_nm>
+    <h_nm>0.7</h_nm>
+    <g_dot_nm>-0.1</g_dot_nm>
+    <h_dot_nm>-0.0</h_dot_nm>
   </coefficients>
   <coefficients>
     <n>11</n>
     <m>6</m>
-    <gnm>-0.7</gnm>
-    <hnm>-0.2</hnm>
-    <dgnm>0.0</dgnm>
-    <dhnm>-0.0</dhnm>
+    <g_nm>-0.7</g_nm>
+    <h_nm>-0.2</h_nm>
+    <g_dot_nm>0.0</g_dot_nm>
+    <h_dot_nm>-0.0</h_dot_nm>
   </coefficients>
   <coefficients>
     <n>11</n>
     <m>7</m>
-    <gnm>0.1</gnm>
-    <hnm>-2.1</hnm>
-    <dgnm>-0.0</dgnm>
-    <dhnm>0.1</dhnm>
+    <g_nm>0.1</g_nm>
+    <h_nm>-2.1</h_nm>
+    <g_dot_nm>-0.0</g_dot_nm>
+    <h_dot_nm>0.1</h_dot_nm>
   </coefficients>
   <coefficients>
     <n>11</n>
     <m>8</m>
-    <gnm>1.7</gnm>
-    <hnm>-1.5</hnm>
-    <dgnm>-0.0</dgnm>
-    <dhnm>-0.0</dhnm>
+    <g_nm>1.7</g_nm>
+    <h_nm>-1.5</h_nm>
+    <g_dot_nm>-0.0</g_dot_nm>
+    <h_dot_nm>-0.0</h_dot_nm>
   </coefficients>
   <coefficients>
     <n>11</n>
     <m>9</m>
-    <gnm>-0.2</gnm>
-    <hnm>-2.6</hnm>
-    <dgnm>-0.1</dgnm>
-    <dhnm>-0.1</dhnm>
+    <g_nm>-0.2</g_nm>
+    <h_nm>-2.6</h_nm>
+    <g_dot_nm>-0.1</g_dot_nm>
+    <h_dot_nm>-0.1</h_dot_nm>
   </coefficients>
   <coefficients>
     <n>11</n>
     <m>10</m>
-    <gnm>0.4</gnm>
-    <hnm>-2.0</hnm>
-    <dgnm>-0.0</dgnm>
-    <dhnm>-0.0</dhnm>
+    <g_nm>0.4</g_nm>
+    <h_nm>-2.0</h_nm>
+    <g_dot_nm>-0.0</g_dot_nm>
+    <h_dot_nm>-0.0</h_dot_nm>
   </coefficients>
   <coefficients>
     <n>11</n>
     <m>11</m>
-    <gnm>3.5</gnm>
-    <hnm>-2.3</hnm>
-    <dgnm>-0.1</dgnm>
-    <dhnm>-0.1</dhnm>
+    <g_nm>3.5</g_nm>
+    <h_nm>-2.3</h_nm>
+    <g_dot_nm>-0.1</g_dot_nm>
+    <h_dot_nm>-0.1</h_dot_nm>
   </coefficients>
   <coefficients>
     <n>12</n>
     <m>0</m>
-    <gnm>-2.0</gnm>
-    <hnm>0.0</hnm>
-    <dgnm>0.0</dgnm>
-    <dhnm>0.0</dhnm>
+    <g_nm>-2.0</g_nm>
+    <h_nm>0.0</h_nm>
+    <g_dot_nm>0.0</g_dot_nm>
+    <h_dot_nm>0.0</h_dot_nm>
   </coefficients>
   <coefficients>
     <n>12</n>
     <m>1</m>
-    <gnm>-0.1</gnm>
-    <hnm>-1.0</hnm>
-    <dgnm>0.0</dgnm>
-    <dhnm>-0.0</dhnm>
+    <g_nm>-0.1</g_nm>
+    <h_nm>-1.0</h_nm>
+    <g_dot_nm>0.0</g_dot_nm>
+    <h_dot_nm>-0.0</h_dot_nm>
   </coefficients>
   <coefficients>
     <n>12</n>
     <m>2</m>
-    <gnm>0.5</gnm>
-    <hnm>0.3</hnm>
-    <dgnm>-0.0</dgnm>
-    <dhnm>0.0</dhnm>
+    <g_nm>0.5</g_nm>
+    <h_nm>0.3</h_nm>
+    <g_dot_nm>-0.0</g_dot_nm>
+    <h_dot_nm>0.0</h_dot_nm>
   </coefficients>
   <coefficients>
     <n>12</n>
     <m>3</m>
-    <gnm>1.2</gnm>
-    <hnm>1.8</hnm>
-    <dgnm>0.0</dgnm>
-    <dhnm>-0.1</dhnm>
+    <g_nm>1.2</g_nm>
+    <h_nm>1.8</h_nm>
+    <g_dot_nm>0.0</g_dot_nm>
+    <h_dot_nm>-0.1</h_dot_nm>
   </coefficients>
   <coefficients>
     <n>12</n>
     <m>4</m>
-    <gnm>-0.9</gnm>
-    <hnm>-2.2</hnm>
-    <dgnm>-0.1</dgnm>
-    <dhnm>0.1</dhnm>
+    <g_nm>-0.9</g_nm>
+    <h_nm>-2.2</h_nm>
+    <g_dot_nm>-0.1</g_dot_nm>
+    <h_dot_nm>0.1</h_dot_nm>
   </coefficients>
   <coefficients>
     <n>12</n>
     <m>5</m>
-    <gnm>0.9</gnm>
-    <hnm>0.3</hnm>
-    <dgnm>-0.0</dgnm>
-    <dhnm>-0.0</dhnm>
+    <g_nm>0.9</g_nm>
+    <h_nm>0.3</h_nm>
+    <g_dot_nm>-0.0</g_dot_nm>
+    <h_dot_nm>-0.0</h_dot_nm>
   </coefficients>
   <coefficients>
     <n>12</n>
     <m>6</m>
-    <gnm>0.1</gnm>
-    <hnm>0.7</hnm>
-    <dgnm>0.0</dgnm>
-    <dhnm>0.0</dhnm>
+    <g_nm>0.1</g_nm>
+    <h_nm>0.7</h_nm>
+    <g_dot_nm>0.0</g_dot_nm>
+    <h_dot_nm>0.0</h_dot_nm>
   </coefficients>
   <coefficients>
     <n>12</n>
     <m>7</m>
-    <gnm>0.6</gnm>
-    <hnm>-0.1</hnm>
-    <dgnm>-0.0</dgnm>
-    <dhnm>-0.0</dhnm>
+    <g_nm>0.6</g_nm>
+    <h_nm>-0.1</h_nm>
+    <g_dot_nm>-0.0</g_dot_nm>
+    <h_dot_nm>-0.0</h_dot_nm>
   </coefficients>
   <coefficients>
     <n>12</n>
     <m>8</m>
-    <gnm>-0.4</gnm>
-    <hnm>0.3</hnm>
-    <dgnm>0.0</dgnm>
-    <dhnm>0.0</dhnm>
+    <g_nm>-0.4</g_nm>
+    <h_nm>0.3</h_nm>
+    <g_dot_nm>0.0</g_dot_nm>
+    <h_dot_nm>0.0</h_dot_nm>
   </coefficients>
   <coefficients>
     <n>12</n>
     <m>9</m>
-    <gnm>-0.5</gnm>
-    <hnm>0.2</hnm>
-    <dgnm>-0.0</dgnm>
-    <dhnm>0.0</dhnm>
+    <g_nm>-0.5</g_nm>
+    <h_nm>0.2</h_nm>
+    <g_dot_nm>-0.0</g_dot_nm>
+    <h_dot_nm>0.0</h_dot_nm>
   </coefficients>
   <coefficients>
     <n>12</n>
     <m>10</m>
-    <gnm>0.2</gnm>
-    <hnm>-0.9</hnm>
-    <dgnm>-0.0</dgnm>
-    <dhnm>-0.0</dhnm>
+    <g_nm>0.2</g_nm>
+    <h_nm>-0.9</h_nm>
+    <g_dot_nm>-0.0</g_dot_nm>
+    <h_dot_nm>-0.0</h_dot_nm>
   </coefficients>
   <coefficients>
     <n>12</n>
     <m>11</m>
-    <gnm>-0.9</gnm>
-    <hnm>-0.2</hnm>
-    <dgnm>-0.0</dgnm>
-    <dhnm>0.0</dhnm>
+    <g_nm>-0.9</g_nm>
+    <h_nm>-0.2</h_nm>
+    <g_dot_nm>-0.0</g_dot_nm>
+    <h_dot_nm>0.0</h_dot_nm>
   </coefficients>
   <coefficients>
     <n>12</n>
     <m>12</m>
-    <gnm>-0.0</gnm>
-    <hnm>0.8</hnm>
-    <dgnm>-0.1</dgnm>
-    <dhnm>-0.1</dhnm>
+    <g_nm>-0.0</g_nm>
+    <h_nm>0.8</h_nm>
+    <g_dot_nm>-0.1</g_dot_nm>
+    <h_dot_nm>-0.1</h_dot_nm>
   </coefficients>
-</tns:magvar>
+</m:magvar>

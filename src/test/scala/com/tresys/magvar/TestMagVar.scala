@@ -36,18 +36,19 @@ import org.junit.Test
 import org.apache.daffodil.tdml.Runner
 import org.junit.AfterClass
 
-object TestMagVar {
+object MagVarTests {
   lazy val runner = Runner("/com/tresys/magvar/", "magvar.tdml")
 
   @AfterClass def shutdown: Unit = { runner.reset }
 
 }
 
-class TestMagVar {
-  import TestMagVar._
+class MagVarTests {
+  import MagVarTests._
 
   @Test def parseWMM2015COF() { runner.runOneTest("parseWMM2015COF") }
-  @Test def parseWMM2020COF_onePass() { runner.runOneTest("parseWMM2020COF_onePass") }
   @Test def parseWMM2020COF_twoPass() { runner.runOneTest("parseWMM2020COF_twoPass") }
+  @Test def parseWithValidateWMM2020COF_twoPass() { runner.runOneTest("parseWMM2020COF_twoPass") }
+  @Test def parseHeader() { runner.runOneTest("parseHeader") }
 
 }

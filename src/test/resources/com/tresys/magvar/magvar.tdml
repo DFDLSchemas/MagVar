@@ -7,7 +7,7 @@
   defaultRoundTrip="onePass">
 
 	<tdml:parserTestCase name="parseWMM2015COF"
-		model="com/tresys/magvar/xsd/magvar.dfdl.xsd">
+		model="com/tresys/magvar/xsd/magvar.dfdl.xsd" roundTrip="twoPass">
 		<tdml:document>
 			<tdml:documentPart type="file">WMM2015COF/WMM.COF</tdml:documentPart>
 		</tdml:document>

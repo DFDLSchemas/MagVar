@@ -1,7 +1,4 @@
-/* Copyright (c) 2012-2013 Tresys Technology, LLC. All rights reserved.
- *
- * Developed by: Tresys Technology, LLC
- *               http://www.tresys.com
+/* Copyright (c) 2012-2021 Owl Cyber Defense. All rights reserved.
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy of
  * this software and associated documentation files (the "Software"), to deal with
@@ -17,7 +14,7 @@
  *     notice, this list of conditions and the following disclaimers in the
  *     documentation and/or other materials provided with the distribution.
  *
- *  3. Neither the names of Tresys Technology, nor the names of its contributors
+ *  3. Neither the names of Owl Cyber Defense, nor the names of its contributors
  *     may be used to endorse or promote products derived from this Software
  *     without specific prior written permission.
  *

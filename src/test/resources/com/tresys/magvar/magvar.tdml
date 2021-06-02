@@ -29,7 +29,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS WITH THE
 SOFTWARE.
  -->
 
-<testSuite suiteName="Namespaces"
+<tdml:testSuite suiteName="Namespaces"
   xmlns:dfdl="http://www.ogf.org/dfdl/dfdl-1.0/" 
   xmlns:tdml="http://www.ibm.com/xmlns/dfdl/testData"
   xmlns:xs="http://www.w3.org/2001/XMLSchema"
@@ -83,7 +83,7 @@ SOFTWARE.
 	</tdml:parserTestCase>
 
 	<tdml:parserTestCase name="parseWithValidateWMM2020COF_twoPass"
-		model="com/tresys/magvar/xsd/magvar.dfdl.xsd" roundTrip="twoPass" validate="on">
+		model="com/tresys/magvar/xsd/magvar.dfdl.xsd" roundTrip="twoPass" validation="on">
 		<tdml:document>
 			<tdml:documentPart type="file">WMM2020COF/WMM.COF</tdml:documentPart>
 		</tdml:document>
@@ -126,4 +126,4 @@ SOFTWARE.
 		</tdml:infoset>
 	</tdml:parserTestCase>
 
-</testSuite>
+</tdml:testSuite>

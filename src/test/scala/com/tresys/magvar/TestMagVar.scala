@@ -36,16 +36,16 @@ import org.junit.AfterClass
 object MagVarTests {
   lazy val runner = Runner("/com/tresys/magvar/", "magvar.tdml")
 
-  @AfterClass def shutdown: Unit = { runner.reset }
+  @AfterClass def shutdown: Unit = { runner.reset() }
 
 }
 
 class MagVarTests {
   import MagVarTests._
 
-  @Test def parseWMM2015COF() { runner.runOneTest("parseWMM2015COF") }
-  @Test def parseWMM2020COF_twoPass() { runner.runOneTest("parseWMM2020COF_twoPass") }
-  @Test def parseWithValidateWMM2020COF_twoPass() { runner.runOneTest("parseWMM2020COF_twoPass") }
-  @Test def parseHeader() { runner.runOneTest("parseHeader") }
+  @Test def parseWMM2015COF() = { runner.runOneTest("parseWMM2015COF") }
+  @Test def parseWMM2020COF_twoPass() = { runner.runOneTest("parseWMM2020COF_twoPass") }
+  @Test def parseWithValidateWMM2020COF_twoPass() = { runner.runOneTest("parseWMM2020COF_twoPass") }
+  @Test def parseHeader() = { runner.runOneTest("parseHeader") }
 
 }

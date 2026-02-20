@@ -1,7 +1,9 @@
-name := "dfdl-magvar"
+val root = (project in file("."))
+  .settings(
+    name := "dfdl-magvar",
 
-organization := "com.tresys"
+    organization := "com.tresys",
 
-version := "0.1.0-SNAPSHOT"
-
-enablePlugins(DaffodilPlugin)
+    version := "0.1.0-SNAPSHOT"
+  )
+  .daffodilProject()
